@@ -9,3 +9,4 @@ public class MyExcNeedTypeInt extends  RuntimeException{
         super(message);
     }
 }
+

@@ -12,3 +12,4 @@ public class TypeNeType {
         throw new MyExcNeedTypeInt("Допустимы только циферки");
     }
 }
+

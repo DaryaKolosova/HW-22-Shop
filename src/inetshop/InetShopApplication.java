@@ -12,5 +12,4 @@ public class InetShopApplication {
     public static void main(String[] args) {
         SpringApplication.run(InetShopApplication.class, args);
     }
-
 }
