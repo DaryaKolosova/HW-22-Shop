@@ -11,8 +11,8 @@ import java.util.List;
 @Service
 //@Scope("session")
 @SessionScope
-public class ShoppingCartServiceImpl implements ShoppingCartSvc{
-    private final ShoppingCart shoppingCart=new ShoppingCart();
+public class shoppingCartServiceImpl implements shoppingCartSvc {
+    private final shoppingCart shoppingCart=new shoppingCart();
 
     @Override
     public List<Integer> get() {

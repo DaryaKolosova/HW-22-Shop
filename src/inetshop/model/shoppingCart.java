@@ -3,7 +3,7 @@ package inetshop.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShoppingCart {
+public class shoppingCart {
     private final List<Integer> ids=new ArrayList<>();
 
     public void setIds(List<Integer> ids) {

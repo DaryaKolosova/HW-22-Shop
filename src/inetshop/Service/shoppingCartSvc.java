@@ -2,7 +2,7 @@ package inetshop.Service;
 
 import java.util.List;
 
-public interface ShoppingCartSvc {
+public interface shoppingCartSvc {
     List<Integer> get();
     void add (List<Integer> ids);
 

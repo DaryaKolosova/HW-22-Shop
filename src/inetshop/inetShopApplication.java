@@ -6,10 +6,10 @@ import skypro.hw11.shop.inetshop.Service.ShoppingCartServiceImpl;
 import skypro.hw11.shop.inetshop.Service.ShoppingCartSvc;
 
 @SpringBootApplication
-public class InetShopApplication {
+public class inetShopApplication {
     ShoppingCartSvc shoppingCartSvc =new ShoppingCartServiceImpl();
 
     public static void main(String[] args) {
-        SpringApplication.run(InetShopApplication.class, args);
+        SpringApplication.run(inetShopApplication.class, args);
     }
 }

@@ -8,11 +8,11 @@ import skypro.hw11.shop.inetshop.Service.ShoppingCartSvc;
 import java.util.List;
 
 @RestController
-public class ShoppingCartController {
+public class shoppingCartController {
 
-    private final ShoppingCartSvc shoppingCartSvc;
+    private final shoppingCartSvc shoppingCartSvc;
 
-    public ShoppingCartController(ShoppingCartSvc shoppingCartSvc) {
+    public shoppingCartController(shoppingCartSvc shoppingCartSvc) {
         this.shoppingCartSvc = shoppingCartSvc;
     }
 
